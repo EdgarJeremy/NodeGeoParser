@@ -1,0 +1,31 @@
+{
+  "name": "nodejsgeoparser",
+  "version": "0.0.1",
+  "description": "Node.js backend untuk serving geojson -> tiles",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express.js": "^1.0.0",
+    "geojson-vt": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarJeremy/NodeJSGeoParser.git"
+  },
+  "keywords": [
+    "Node",
+    "NodeGeoParser",
+    "GeoJSONTiles"
+  ],
+  "author": "EdgarJeremy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarJeremy/NodeJSGeoParser/issues"
+  },
+  "homepage": "https://github.com/EdgarJeremy/NodeGeoJSParser#readme"
+}
